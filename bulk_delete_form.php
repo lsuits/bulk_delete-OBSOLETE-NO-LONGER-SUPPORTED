@@ -1,5 +1,7 @@
 <?php
 
+// Written at Louisiana State University
+
 require_once $CFG->libdir . '/formslib.php';
 
 $_s = function($key) { return get_string($key, 'block_bulk_delete'); };

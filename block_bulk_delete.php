@@ -1,5 +1,7 @@
 <?php
 
+// Written at Louisiana State University
+
 class block_bulk_delete extends block_list {
 
     function init() {

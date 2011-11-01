@@ -1,5 +1,7 @@
 <?php
 
+// Written at Louisiana State University
+
 $string['pluginname'] = 'Bulk Delete';
 $string['courses'] = 'Course shortnames (one per line)';
 $string['delete_courses'] = 'Delete courses';
