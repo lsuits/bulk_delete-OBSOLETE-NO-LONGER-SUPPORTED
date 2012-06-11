@@ -26,7 +26,10 @@ class block_bulk_delete extends block_list {
         $url = new moodle_url('blocks/bulk_delete/index.php');
         $link = html_writer::link($url, $_s('pluginname'));
 
-        $icons = array($OUTPUT->pix_icon('t/delete', $_s('pluginname')));
+        $icons = array(
+            $OUTPUT->pix_icon('t/delete', $_s('pluginname'),
+                'moodle', array('class' => 'icon'))
+            );
         $items = array($link);
 
         $this->content->items = $items;
