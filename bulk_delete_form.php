@@ -14,6 +14,7 @@ class bulk_delete_form extends moodleform {
 
         $mform =& $this->_form;
         $mform->addElement('textarea', 'courses', $_s('courses'), $settings);
+        $mform->setType('courses', PARAM_TEXT);
 
         $buttons = array(
             $mform->createElement('submit', 'submit', $_s('delete_courses')),
